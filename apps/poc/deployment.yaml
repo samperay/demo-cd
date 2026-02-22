@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: poc-app
-          image: ghcr.io/samperay/cicd-poc-app:a2bd6e26b00370dab631b3eac3c4ac65519ec782
+          image: ghcr.io/samperay/cicd-poc-app:17caa200e8c0d489110316f62fd57ff2f7958efa
           ports:
             - containerPort: 8080
