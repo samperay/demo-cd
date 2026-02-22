@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: poc-app
-          image: ghcr.io/<YOUR_GH_ORG_OR_USER>/demo-ci:initial
+          image: ghcr.io/samperay/cicd-poc-app:e1c487167e8c6fb472d1094ee7a826e9d86d5577
           ports:
             - containerPort: 8080
